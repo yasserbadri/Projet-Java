@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" styleClass="button3" stylesheets="@../../styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.RechercherEvnController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane prefHeight="379.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="42.0" layoutY="25.0" mnemonicParsing="false" onAction="#goBack" text="Retourner" />
+            <TextArea fx:id="resultTextArea" layoutX="141.0" layoutY="226.0" prefHeight="135.0" prefWidth="323.0" />
+            <TextField fx:id="titreTextField" layoutX="228.0" layoutY="114.0" />
+            <Button layoutX="277.0" layoutY="163.0" mnemonicParsing="false" onAction="#rechercherEvn" text="Rechercher" />
+            <Text layoutX="141.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rechercher un evenement">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
