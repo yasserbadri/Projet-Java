@@ -1,0 +1,20 @@
+.anchor-pane{
+    -fx-background-image : url('backmenu.png');
+    -fx-background-size: cover;
+}
+.button1{
+    -fx-background-image : url('50-Beautiful-and-Minimalist-Presentation-Backgrounds-05.jpg');
+    -fx-background-size: cover;
+}
+.button2{
+    -fx-background-image : url('disks-background-blank-blu.png');
+    -fx-background-size: cover; 
+}
+.button3{
+    -fx-background-image : url('istockphoto-1019217092-170667a.png');
+    -fx-background-size: cover; 
+}
+.button4{
+    -fx-background-image : url('reservation_documents_empruntes_bibliotheques-ubmontaigne.png');
+    -fx-background-size: cover; 
+}
