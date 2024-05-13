@@ -21,7 +21,7 @@
           <TextField fx:id="dateReservationField" layoutX="51.0" layoutY="190.0" promptText="Date de la réservation" />
           <TextField fx:id="detailsField" layoutX="51.0" layoutY="151.0" promptText="Détails" />
           <Button layoutX="324.0" layoutY="108.0" onAction="#ajouterReservation" prefHeight="111.0" prefWidth="149.0" text="Ajouter" />
-         <Button layoutX="-17.0" layoutY="18.0" mnemonicParsing="false" onAction="#goBack" text="goBack" />
+         <Button layoutX="-17.0" layoutY="18.0" mnemonicParsing="false" onAction="#goBack" text="Retourner" />
          <ImageView fitHeight="89.0" fitWidth="35.0" layoutX="-7.0" layoutY="-17.0" pickOnBounds="true" preserveRatio="true">
             <image>
                <Image url="@../../3683641.png" />
